@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget.Database.ContinuousDelivery", "Nuget.Database.ContinuousDelivery\Nuget.Database.ContinuousDelivery.csproj", "{9165CD72-626D-49E4-AA73-DF1E1F0B6F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget.Database.ContinuousDelivery.IntegrationTests", "Nuget.Database.ContinuousDelivery.TesteIntegracao\Nuget.Database.ContinuousDelivery.IntegrationTests.csproj", "{E7EE427C-18E8-4267-840E-AA8BAFCE6DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget.Database.ContinuousDelivery.UnitTests", "Nuget.Database.ContinuousDelivery.TesteUnitario\Nuget.Database.ContinuousDelivery.UnitTests.csproj", "{618CDB7B-B79A-4D9D-90F1-BC05946B86A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9165CD72-626D-49E4-AA73-DF1E1F0B6F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9165CD72-626D-49E4-AA73-DF1E1F0B6F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9165CD72-626D-49E4-AA73-DF1E1F0B6F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9165CD72-626D-49E4-AA73-DF1E1F0B6F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EE427C-18E8-4267-840E-AA8BAFCE6DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EE427C-18E8-4267-840E-AA8BAFCE6DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EE427C-18E8-4267-840E-AA8BAFCE6DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EE427C-18E8-4267-840E-AA8BAFCE6DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618CDB7B-B79A-4D9D-90F1-BC05946B86A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618CDB7B-B79A-4D9D-90F1-BC05946B86A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618CDB7B-B79A-4D9D-90F1-BC05946B86A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618CDB7B-B79A-4D9D-90F1-BC05946B86A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1236AF41-941A-4D3B-BE81-BFCB9D543940}
+	EndGlobalSection
+EndGlobal
